@@ -1,0 +1,4 @@
+SELECT TOP 10 Pojemnosc_dysku, COUNT(Pojemnosc_dysku) AS Ilość
+FROM Komputery
+GROUP BY Pojemnosc_dysku
+ORDER BY  COUNT(Pojemnosc_dysku) DESC
