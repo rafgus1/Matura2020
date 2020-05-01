@@ -47,4 +47,3 @@ for slowo in slowa:
         tekst=slowo
       dl=0
 print(maks, ileslow, tekst)
-#print(ileliter, litery)
